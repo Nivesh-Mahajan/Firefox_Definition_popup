@@ -1,6 +1,6 @@
 // !! IMPORTANT: Replace with your actual keys !!
-const DICTIONARY_API_KEY = '8655cc67-efc7-4087-acc1-15c95962ab0f';
-const THESAURUS_API_KEY = '310dc90a-31f8-4f70-9c84-03d9e8f49309';
+const DICTIONARY_API_KEY = 'Merriam-Webster-API-KEY-HERE';
+const THESAURUS_API_KEY = 'Merriam-Webster-API-KEY-HERE';
 
 const DICTIONARY_ENDPOINT = 'https://www.dictionaryapi.com/api/v3/references/collegiate/json/';
 const THESAURUS_ENDPOINT = 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/';
