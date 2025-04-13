@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "MW Definition Popup",
+  "version": "1.0",
+  "description": "Select a word, right-click, and get its definition from Merriam-Webster.",
+
+  "permissions": [
+    "contextMenus",      // To add items to the context menu
+    "activeTab",         // To interact with the current tab (send message to content script)
+    "<all_urls>",        // Required for content script to run on all pages
+    "https://*.dictionaryapi.com/" // Permission to make requests to the API domain
+    // "storage" // Add this if you want to store the API key securely later
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"], // Run on all web pages
+      "js": ["content.js"],
+      "css": ["popup.css"]
+    }
+  ],
+
+  "icons": { // Optional: Add icons for the extension manager
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  }
+}
