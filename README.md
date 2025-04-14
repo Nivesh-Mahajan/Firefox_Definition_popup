@@ -32,8 +32,21 @@ Zip the folder correctly:
 
   c. Right-click → Send to → Compressed (zipped) folder (on Windows)
 
-3. Submit for signing (unlisted/self-distribution is allowed, no store listing required):
-https://addons.mozilla.org/en-US/developers/addons
+3. Submit for Signing
+
+  a. Go to: https://addons.mozilla.org/en-US/developers/addons
+
+  b. Click "Submit a New Add-on"
+
+  c. Choose "On your own" / "Unlisted"
+
+  d. Upload your .zip file.
+
+  e. Fill basic metadata (name, description), no need to publish to the public store.
+
+  f. Mozilla will automatically review and sign it.
+
+  g. Once done, you’ll get a signed .xpi file.
 
 4. Download the signed .xpi file after approval.
 
