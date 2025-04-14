@@ -46,11 +46,23 @@ Zip the folder correctly:
 
   f. Mozilla will automatically review and sign it.
 
-  g. Once done, you’ll get a signed .xpi file.
+  g. Once approved (you'll get a mail), you’ll get a signed .xpi file.
 
-4. Download the signed .xpi file after approval.
+4. How to locate said .xpi file:
 
-5. Install it in Firefox permanently:
+  a. Go to My Add-ons Developer Hub
+
+  b. Click on your extension name.
+
+  c. Go to “Versions” from the sidebar.
+
+  d. Click on your latest version (e.g., Version 1.0).
+
+  e. In front of the "files", you'll see a .xpi file, click on it and the extension will begin to install. if it doesn't install automatically,
+
+5. Download the signed .xpi file.
+
+6. Install it in Firefox permanently:
 
   a. Open Firefox.
 
